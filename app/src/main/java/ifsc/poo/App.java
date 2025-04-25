@@ -4,22 +4,29 @@
 package ifsc.poo;
 import edu.princeton.cs.algs4.Draw;
 import ifsc.poo.domain.Grade;
+import ifsc.poo.domain.Navio;
 
 public class App {
-    public static void main(String[] args) {
-        Draw draw;
+    Draw draw;
+
+    public App() {
         draw = new Draw();
         draw.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
         draw.setCanvasSize(1000, 600);
         draw.setXscale(0, 1000);
         draw.setYscale(0, 600);
+    }
+    public static void main(String[] args) {
+        App app = new App();
+        app.draw.show();
 
-        for (int i = 0; i < 10; i++){
-            for (int j = 0; j < 10; j++){
-                draw.square(i * 10, j * 10, 50);
-            }
-        }
+        Grade grade  = new Grade();
+        grade.desenhar(app.draw);
 
-        draw.show();
+        Navio navio = new Navio(5, 20, 20, "vertical", grade);
+        navio.desenhar(app.draw);
+
+
+
     }
 }

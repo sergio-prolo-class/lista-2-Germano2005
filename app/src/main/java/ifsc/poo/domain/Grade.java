@@ -2,39 +2,33 @@ package ifsc.poo.domain;
 import edu.princeton.cs.algs4.Draw;
 
 public class Grade {
-    private int altura;
-    private int largura;
-    private Draw draw;
+    private final double x = 20;
+    private final double y = 20;
 
-    public int getAltura() {
-        return altura;
+    public double getX() {
+        return x;
     }
 
-    public void setAltura(int altura) {
-        this.altura = altura;
-    }
-
-    public int getLargura() {
-        return largura;
-    }
-
-    public void setLargura(int largura) {
-        this.largura = largura;
-    }
-
-    public Draw getDraw() {
-        return draw;
-    }
-
-    public void setDraw(Draw draw) {
-        this.draw = draw;
+    public double getY() {
+        return y;
     }
 
     public void desenhar(Draw draw){
-        for (int i = 0; i < 10; i++){
-            for (int j = 0; j < 0; j++){
-                draw.square(i * 10, j * 10, 20);
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                draw.square(i * x + 70, j * y + 70, 20);
             }
+        }
+        draw.setPenColor(Draw.RED);
+
+        for (int i = 0; i < 10; i++) {
+            draw.text(i * x + 65, 25, String.valueOf(i));
+        }
+
+
+        for (int j = 0; j < 10; j++) {
+            char letter = (char) ('A' + j);
+            draw.text(25, j * y + 65, String.valueOf(letter));
         }
     }
 }
