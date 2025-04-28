@@ -23,7 +23,7 @@ public class App {
         Grade grade  = new Grade();
         grade.desenhar(app.draw);
 
-        Navio navio = new Navio(5, 20, 20, "vertical", grade);
+        Navio navio = new Navio(5, 20, 20, "horizontal", grade);
         navio.desenhar(app.draw);
 
 

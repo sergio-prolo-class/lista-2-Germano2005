@@ -14,6 +14,8 @@ public class Grade {
     }
 
     public void desenhar(Draw draw){
+        draw.setXscale(0, 600);
+        draw.setYscale(0, 400);
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 draw.square(i * x + 70, j * y + 70, 20);

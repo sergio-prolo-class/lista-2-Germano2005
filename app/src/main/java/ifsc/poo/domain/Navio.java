@@ -59,15 +59,16 @@ public class Navio {
 
     public void desenhar(Draw draw){
         if (orientacao.equals("vertical")){
-            draw.setPenColor(Draw.BLUE);
+            draw.setPenColor(Draw.BOOK_RED);
             for (int i = 0; i < tamanho; i++){
-                for (int j = 0; j < tamanho; j++){
-                    draw.filledSquare(i * x + 70, j * y + 70, 20);
-                }
+                draw.filledSquare(i  * x + 60, y+40, 10);
             }
         }
         else {
-
+            draw.setPenColor(Draw.BOOK_RED);
+            for (int i = 0; i < tamanho; i++){
+                draw.filledSquare(x + 60, i * y+40, 10);
+            }
         }
     }
 
