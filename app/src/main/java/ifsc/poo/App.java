@@ -20,11 +20,29 @@ public class App {
         App app = new App();
         app.draw.show();
 
-        Grade grade  = new Grade();
-        grade.desenhar(app.draw);
+        Grade grade1  = new Grade(70, 70, 25, 65, 25, 65);
+        grade1.desenhar(app.draw);
 
-        Navio navio = new Navio(5, 20, 20, "horizontal", grade);
-        navio.desenhar(app.draw);
+        Navio navio1 = new Navio(4, 60, 40, "horizontal", grade1);
+        navio1.desenhar(app.draw);
+
+        Navio navio2 = new Navio(5, 100, 100, "vertical", grade1);
+        navio2.desenhar(app.draw);
+
+        Navio navio3 = new Navio(3, 140, 80, "vertical", grade1);
+        navio3.desenhar(app.draw);
+
+        Navio navio4 = new Navio(3, 180, 160, "vertical", grade1);
+        navio4.desenhar(app.draw);
+
+        Navio navio5 = new Navio(2, 80, 200, "horizontal", grade1);
+        navio5.desenhar(app.draw);
+
+        app.draw.setPenColor(Draw.BLACK);
+
+        Grade grade2 = new Grade(350, 70, 310, 60, 30, 340);
+        grade2.desenhar(app.draw);
+
 
 
 
