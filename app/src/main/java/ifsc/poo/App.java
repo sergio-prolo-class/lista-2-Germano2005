@@ -40,8 +40,13 @@ public class App {
 
         app.draw.setPenColor(Draw.BLACK);
 
-        Grade grade2 = new Grade(350, 70, 310, 60, 30, 340);
+        Grade grade2  = new Grade(70, 70, 25, 65, 25, 65);
         grade2.desenhar(app.draw);
+
+        app.draw.setPenColor(Draw.BLACK);
+
+        Grade grade3 = new Grade(350, 70, 310, 60, 30, 340);
+        grade3.desenhar(app.draw);
 
 
 

@@ -76,7 +76,7 @@ public class Grade {
                 draw.square(i * altura + x, j * largura + y, 20);
             }
         }
-        draw.setPenColor(Draw.RED);
+        draw.setPenColor(Draw.BOOK_RED);
 
         for (int i = 0; i < 10; i++) {
             draw.text(i * altura + numY, numX, String.valueOf(i));
