@@ -20,6 +20,8 @@ public class App {
         App app = new App();
         app.draw.show();
 
+        app.draw.enableTimer(1);
+
         Grade grade1  = new Grade(70, 70, 25, 65, 25, 65);
         grade1.desenhar(app.draw);
 
