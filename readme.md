@@ -49,7 +49,7 @@ de x e y devem ser informados durante a construção do objeto Grade.
 
 Segue o exemplo abaixo:
 
-
+![grade.png](img/grade.png)
 
 
 
