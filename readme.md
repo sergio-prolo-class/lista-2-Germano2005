@@ -52,5 +52,32 @@ Segue o exemplo abaixo:
 ![grade.png](img/grade.png)
 
 
+## ETAPA 3 - Modelando a classe Navio
+
+Nesta etapa, será feita a modelagem da classe <strong> Navio </strong>, que como objetivo criar os navios da batalha navio onde cada um terá seus tamanhos de posições.
+
+| Navio           | Tamanho (casas) | Símbolo |
+|-----------------|-----------------|---------|
+| Porta-aviões    | 5               | P       |
+| Encouraçado     | 4               | E       |
+| Cruzador        | 3               | C       |
+| Submarino       | 3               | S       |
+| Contratorpedeiro| 2               | N       |
+
+
+Especificações:
+
+* A classe Navio deve ter um método público chamado desenhar que recebe um objeto Draw como
+argumento.
+* O método desenhar deve usar o objeto Draw para desenhar um navio na tela
+* O objeto Navio deve ser construído com argumentos para definir à qual Grade ele pertence, seu
+tamanho, posição (x, y) na grade e orientação (vertical ou horizontal) (Por exemplos, o Navio da
+Figura 2 possui tamanho 5, posição (3, 2) e orientação vertical)
+* O Navio deve ser desenhado como uma série de quadrados coloridos. A dimensão dos quadrados é
+igual ao tamanho da célula da Grade (40 × 40 pixels). A cor dos quadrados deve ser a mesma dos
+rótulos da Grade.
+
+Segue o exemplo abaixo: 
+
 
 
