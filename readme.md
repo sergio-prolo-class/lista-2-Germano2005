@@ -26,8 +26,10 @@ Crie um método construtor da classe ‘App’ para inicializar com os seguintes
 E por fim, crie um objeto <strong>‘App’</strong> no método <strong>main</strong> onde ao executar a aplicação, deve-se criar uma janela Draw em branco com os valores atribuitos.
 <br>
 Segue os exemplos abaixo:
+
 ![Captura de tela de 2025-05-02 08-45-31.png](img/Captura%20de%20tela%20de%202025-05-02%2008-45-31.png)
-<br>
+
+
 ![Captura de tela de 2025-05-02 08-47-03.png](img/Captura%20de%20tela%20de%202025-05-02%2008-47-03.png)
 
 
