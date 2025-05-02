@@ -33,6 +33,24 @@ Segue os exemplos abaixo:
 
 ![Captura de tela de 2025-05-02 08-47-03.png](img/Captura%20de%20tela%20de%202025-05-02%2008-47-03.png)
 
+## ETAPA 2 - Modelando a classe Grade
+
+Nesta etapa, será feita a modelagem da classe <strong> Grade </strong>, que como objetivo criar uma grade 10x10 no Draw.
+
+Especificações:
+
+* A classe Grade deve ter um método público chamado desenhar que recebe um objeto Draw como
+argumento.
+* O método desenhar deve usar o objeto Draw para desenhar uma grade 10 times 10 na tela.
+* Cada célula da grade deve ter dimensão de 40 × 40 pixels.
+* A grade deve ser desenhada com seu canto inferior esquerdo na posição (x, y) da tela. Os valores
+de x e y devem ser informados durante a construção do objeto Grade.
+* A grade deve ser desenhada com rótulos para as linhas e colunas.
+
+Segue o exemplo abaixo:
+
+
+
 
 
 
