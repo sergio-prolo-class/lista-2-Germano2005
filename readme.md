@@ -79,5 +79,5 @@ rótulos da Grade.
 
 Segue o exemplo abaixo: 
 
-
+![navio.png](img/navio.png)
 
