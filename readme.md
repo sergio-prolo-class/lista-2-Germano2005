@@ -79,3 +79,18 @@ rótulos da Grade.
 Segue o exemplo abaixo: 
 
 ![navios.png](img/navios.png)
+
+## ETAPA 4 - Criando o tabuleiro de batalha naval
+
+Na última etapa, será feita a implementação final do jogo, onde o programa devera criar uma tela Draw contendo uma grade com os 5 navios e uma grade vazia.
+
+Para esse fim:
+* Crie duas grades e posicione elas em lados opostos da tela. A grade da esquerda representa o
+tabuleiro do jogador, enquanto a grade da direita representará os alvos do jogador no tabuleiro inimigo.
+* Crie cinco navios e posicione-os na grade a esquerda, representando os navios do jogador.
+
+Para executar o programa, use o comando `./gradlew run` no terminal
+
+O resultado final será a figura que segue abaxio:
+
+![jogo.png](img/jogo.png)
