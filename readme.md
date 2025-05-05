@@ -90,7 +90,7 @@ Para esse fim:
 tabuleiro do jogador, enquanto a grade da direita representará os alvos do jogador no tabuleiro inimigo.
 * Crie cinco navios e posicione-os na grade a esquerda, representando os navios do jogador.
 
-Para executar o programa, use o comando `./gradlew run` no terminal
+Para executar o programa, use o comando `./gradlew run` no terminal. Obs.: Caso você esteja no linux e o comando não funcione, tente usar `chmod +x gradlew` e novamente o `./gradlew run`.
 
 O resultado final será a figura que segue abaxio:
 
